@@ -1,0 +1,151 @@
+body{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.body-with-menu{
+    background-color: rgb(212, 241, 212);
+}
+.container{
+    margin-bottom: 100px;
+}
+
+.school-logo{
+
+    position: absolute;
+    width:auto;
+    height: 60px;
+    margin-left: 5px;
+}
+.menu-below{
+    padding-top: 80px;
+}
+.below-img{
+    height: 300px;
+    width: 500px;
+    margin-bottom: 20px;
+  
+}
+.row{
+    padding:20px 40px;
+}
+.highlight{
+    color:#00ff80;
+}
+.pera1{
+    color:#ff6600;
+}
+.learn-fun{
+    font-weight: 300;
+    font-size: 50px;
+}
+.peragraph{
+    padding-top: 20px;
+}
+.btn{
+    background-image:linear-gradient(to bottom,#73f3b3 0%,#07f17c 100%) ;
+    color:white;
+    border: none;
+    padding:10px 25px;
+    border-radius: 25px;
+    cursor:pointer
+}
+.card{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card:hover{
+    background-color: #e3e3e4;
+}
+.online-courses{
+    text-align: center;
+    font-size: 50px;
+
+}
+.card-deck{
+    margin-top: 50px;
+}
+.card-img{
+    height: 250px;
+    width: 325px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icon-image{
+  height: 100px;
+  width:100px ;
+  margin-top: 40px;
+}
+.card-footer-img{
+     height: 25px;
+     width: 25px;
+}
+.people-site{
+    float:right;
+}
+.card-footer{
+    background-color:#e9f7f0;
+    border-top: none;
+}
+.man-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+}
+.department-pic{
+    height: 300px;
+    width: 100px;
+}
+.footer-section-up{
+    margin-top: 20px;
+}
+.foo-pera{
+    color: gray;
+}
+.footer-body{
+    background-color: #29293d;
+    color: white;
+}
+.footer{
+    
+    text-align: center;
+}
+
+
+
+
+  /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .left, .main, .right{
+        width:auto;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .left,.main,.right{
+        width:auto;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .left,.main,.right{
+        width:auto;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { .left,.main,.right{
+    width: auto;
+} }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .left,.main,.right{
+width: auto;
+    }
+ }
